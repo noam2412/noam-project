@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#coffeSection {
+    display: flex;
+    background-color: white;
+}
+
+.coffe-img {
+    width: 60vw;
+}
+
+.coffe-img>img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.coffe-form {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    padding: 5em;
+    color: #020253;
+}
+
+.coffe-form-title {
+    width: 80%;
+}
+
+.coffe-form-title>h1 {
+    color: #020253;
+    font: normal normal 900 43px/63px Heebo;
+    width: 100vw;
+}
+
+.coffe-form-title>p {
+    font: normal normal normal 20px/29px Heebo;
+    color: #020253;
+    width: 30vw;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.form-control>input {
+    width: 418px;
+    height: 50px;
+    background: #E5EEFF 0% 0% no-repeat padding-box;
+    border: 0;
+    border-bottom: 4px solid #020253;
+}
+
+.form-control>label {
+    font: normal normal bold 16px/24px Heebo;
+    color: #2C2C2C;
+}
+
+.text {
+    height: 8vw;
+}
+
+.form-submit>input {
+    background-color: #020253;
+    color: #fff;
+    height: 3vw;
+    width: 10vw;
+}

@@ -1,0 +1,97 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 630px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .project3 {
+        padding-top: 9rem;
+
+    }
+
+    .project3 h1 {
+        text-align: center;
+        font: normal normal normal 60px/86px Satisfy;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        text-shadow: 0px 0px 36px #00000087;
+        opacity: 1;
+    }
+
+    .here-form-control {
+        width: 60vw;
+    }
+
+    .here-form-control input {
+        width: 60vw;
+    }
+
+    .project3 input[type="submit"] {
+        background: #FFFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+        width: 60vw;
+        border-radius: 0%;
+        padding-right: 6.2rem;
+    }
+}
+
+@media (max-width: 380px) {
+    .project3 {
+        height: 100vh;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+}
+
+/* @media (max-width: 576px) {
+    .project3 {
+        margin: 0 auto;
+        border-radius: 25px;
+        width: 80vw;
+    }
+
+    .here-form-control form {
+        width: 80vw;
+        height: 70vh;
+        flex-direction: column;
+        margin-top: 10rem;
+    }
+
+    .title {
+        width: 70vw;
+        height: 40vw;
+        text-align: center;
+        margin: 0 auto;
+        margin-right: -10rem;
+    }
+
+    .title h1 {
+        width: 60vw;
+        height: 40vw;
+        margin-left: -50rem;
+        font-size: 29pt;
+    }
+
+    .title h3 {
+        font-size: 14pt;
+    }
+
+    .title p {
+        font-size: 12pt;
+    }
+
+    .here-form-control label {
+        text-align: right;
+    }
+
+    .here-form-control input {
+        width: 70vw;
+    }
+
+    .here-submit input {
+        width: 70vw;
+        height: 8vw;
+        margin-right: 0%;
+        color: #2823FD;
+    }
+} */

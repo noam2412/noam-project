@@ -1,0 +1,41 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    #coffeSection {
+        flex-direction: column;
+        background-color: white;
+    }
+
+    .coffe-img {
+        width: 100vw;
+    }
+
+    .coffe-img>img {
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .coffe-form {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .coffe-form-title>h1 {
+        width: 100vw;
+        height: 14vw;
+    }
+
+    .coffe-form-title>p {
+        width: 80vw;
+        height: 14vw;
+    }
+
+    .form-control>input {
+        width: 70vw;
+    }
+
+    .form-submit>input {
+        width: 70vw;
+        height: 7vw;
+    }
+}

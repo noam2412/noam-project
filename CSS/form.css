@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#formSection {
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: transparent url('img/Path 15.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.pink {
+    width: 100vw;
+    height: 50vh;
+    position: relative;
+    z-index: 1;
+}
+
+.form {
+    top: 157px;
+    margin-right: 17%;
+    width: 30vw;
+    height: 70vh;
+    line-height: 2;
+    background: #1A1A1AD4 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    z-index: 2;
+    padding: 2rem;
+}
+
+.form h1 {
+    width: 440px;
+    height: 53px;
+    text-align: right;
+    font: normal normal 900 30px/47px Heebo;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.form p {
+    width: 417px;
+    height: 58px;
+    text-align: right;
+    font: normal normal normal 17px/26px Heebo;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    opacity: 1;
+}
+
+form {
+    width: 380px;
+    height: 167px;
+    opacity: 1;
+    padding-top: 4rem;
+}
+
+form label {
+    width: 58px;
+    height: 24px;
+    text-align: right;
+    font: normal normal bold 16px/24px Heebo;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+form input[type="text"] {
+    width: 380px;
+    height: 50px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #D31C75;
+    opacity: 1;
+}
+
+form input[type="email"] {
+    width: 380px;
+    height: 50px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #D31C75;
+    opacity: 1;
+}
+
+.form-submit {
+    width: 166px;
+    height: 50px;
+}
+
+.form-submit input {
+    width: 166px;
+    height: 50px;
+    text-align: right;
+    font: normal normal bold 22px/30px Heebo;
+    letter-spacing: 0.33px;
+    color: #FFFFFF;
+    opacity: 1;
+    background: #D31C75 0% 0% no-repeat padding-box;
+    padding-right: 2.2rem;
+
+}

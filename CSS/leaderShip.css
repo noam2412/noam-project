@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img {
+    width: 100vw;
+    height: 11vh;
+}
+
+
+.title {
+    width: 100vw;
+    height: 16vh;
+}
+
+.text {
+    width: 100vw;
+    height: 25vh;
+}
+
+.title>h1 {
+    text-align: center;
+    top: 282px;
+    margin-top: 3%;
+    width: 100vw;
+    height: 250px;
+    font: normal normal bold 86px/113px Assistant;
+    letter-spacing: 0px;
+    color: #D3E10E;
+    opacity: 1;
+}
+
+.text>p {
+    top: 282px;
+    width: 100vw;
+    height: 50px;
+    text-align: center;
+    margin-top: -1%;
+    font: normal normal normal 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    opacity: 1;
+}
+
+.img>img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    top: 0px;
+    left: 0px;
+    /*     width: 1920px;
+    height: 743px; */
+    background: transparent url('img/Path 15.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.leader-form-control form {
+    width: 80vw;
+    height: 25vh;
+    display: inline-flex;
+    margin-top: 15%;
+    margin-right: 10%;
+    /* align-items: stretch; */
+
+}
+
+
+.leader-form-control label {
+    top: 826px;
+    left: 1458px;
+    width: 58px;
+    height: 21px;
+    text-align: right;
+    font: normal normal bold 16px/21px Assistant;
+    letter-spacing: 0px;
+    color: #011560;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: -4rem;
+}
+
+.leader-form-control input {
+    width: 418px;
+    height: 50px;
+    background: #F6F6F6 0% 0% no-repeat padding-box;
+    border: 0;
+    border-bottom: 4px solid #D3E10E;
+    display: inline-flex;
+    margin-top: 1.5rem;
+}
+
+.leader-form-control input[type="text"] {
+    margin-left: 2rem;
+}
+
+.leader-submit input {
+    background-color: #D3E10E;
+    font: normal normal bold 22px/30px Assistant;
+    letter-spacing: 0.33px;
+    color: #011560;
+    opacity: 1;
+    height: 50px;
+    width: 166px;
+    margin-right: 12%;
+    padding-right: 3rem;
+    padding-top: 7px;
+}
