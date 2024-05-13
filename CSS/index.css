@@ -279,6 +279,39 @@ img[alt="Me"] {
     text-align: center;
 }
 
+.container a[download="./rarfiles/Noam Project.zip"] {
+    display: block;
+    text-decoration: none;
+    width: 12rem;
+    margin: 0 auto;
+    padding: 6px 8px;
+    font-family: cursive;
+    margin-top: 1rem;
+    color: #000;
+    font-weight: 600;
+    height: 3rem;
+    background-color: darkslategrey;
+}
+
+a[download="./rarfiles/Noam Project.zip"] {
+    background:
+        linear-gradient(to right,
+            rgba(100, 200, 200, 1),
+            rgba(100, 200, 200, 1)),
+        linear-gradient(to right,
+            rgba(255, 0, 0, 1),
+            rgba(255, 0, 180, 1),
+            rgba(0, 100, 200, 1));
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+}
+
+a[download="./rarfiles/Noam Project.zip"]:hover {
+    background-size: 0 3px, 100% 3px;
+}
+
 .d-flex {
     grid-row: auto;
 }
