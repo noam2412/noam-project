@@ -10,13 +10,13 @@
     opacity: 1;
     width: 90vw;
     height: 90vh;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     text-align: center;
     margin-top: 8rem;
     color: white;
     padding-top: 4.2rem;
     line-height: 1;
-    border-radius: 25px;
+    /*  border-radius: 10px; */
 }
 
 .project3 h1 {
@@ -28,9 +28,10 @@
 }
 
 .project3 p {
-    font-size: 20pt;
+    font-size: 18pt;
     font-weight: 700;
     font: normal normal normal 32px/38px Varela Round;
+    /*  margin-top: rem; */
 }
 
 .project3 input {
@@ -75,7 +76,7 @@
 }
 
 .here-form-control {
-    width: 24vw;
+    width: 50vw;
     margin: 0 auto;
 }
 
@@ -150,7 +151,7 @@
     align-items: center;
 }
 
-.here-form-control label {
+/* .here-form-control label {
     width: 100px;
     height: 20px;
     text-align: center;
@@ -183,4 +184,4 @@
     color: #1C1C1C;
     margin-right: 7rem;
     margin-bottom: 2.2rem
-} */
+}  */

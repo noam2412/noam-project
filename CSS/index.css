@@ -372,6 +372,11 @@ a[download="./rarfiles/Noam Project.zip"]:hover {
     z-index: 2;
 }
 
+.copyright {
+    background-color: black;
+    color: #fff;
+}
+
 div>.privacy {
     padding-left: 88vw;
 }

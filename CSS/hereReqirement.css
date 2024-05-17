@@ -33,6 +33,14 @@
         border-radius: 0%;
         padding-right: 6.2rem;
     }
+
+    /*   .project3 form label {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            margin-top: 1rem;
+        } */
 }
 
 @media (max-width: 380px) {

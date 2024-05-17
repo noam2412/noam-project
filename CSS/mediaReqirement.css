@@ -1,5 +1,5 @@
 /* // Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) {
+@media (max-width: 380px) {
     nav {
         padding-left: 1px;
     }
@@ -16,12 +16,16 @@
         display: block;
     }
 
+    .headContent {
+        height: 65vh;
+    }
+
     .headContent p {
-        width: 60vh;
+        width: 100vw;
     }
 
     .logo {
-        width: 65vh;
+        width: 100vw;
         align-items: center;
     }
 
@@ -51,10 +55,12 @@
         display: block;
         background-color: rgb(206, 203, 203);
         text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
     }
 
     img[alt="Me"] {
-        right: 20%;
+        right: 2rem;
     }
 
     .moi {
@@ -103,22 +109,129 @@
     }
 
     .submit {
-        height: 7vw;
+        height: 6vh;
     }
 
     div>.privacy {
-        padding-left: 68vw;
+        padding-left: 13rem;
     }
 }
 
-/* // Medium devices (tablets, 768px and up) */
-@media (max-width: 768px) {}
 
-/* // Large devices (desktops, 992px and up) */
-@media (max-width: 992px) {}
+@media (min-width: 390px) {
+    nav {
+        padding-left: 1px;
+    }
 
-/* // X-Large devices (large desktops, 1200px and up) */
-@media (max-width: 1200px) {}
+    nav a {
+        display: none;
+    }
 
-/* // XX-Large devices (larger desktops, 1400px and up) */
-@media (max-width: 1400px) {}
+    nav .myName {
+        display: none;
+    }
+
+    nav .hamburgerMenu {
+        display: block;
+    }
+
+    .headContent {
+        height: 65vh;
+    }
+
+    .headContent p {
+        width: 100vw;
+    }
+
+    .logo {
+        width: 100vw;
+        align-items: center;
+    }
+
+    img[alt="HtmlLogo"] {
+        right: 60%;
+    }
+
+    img[alt="CssLogo"] {
+        right: 45%;
+    }
+
+    img[alt="BootstrapLogo"] {
+        right: 30%;
+    }
+
+    .item,
+    .box1,
+    .box2,
+    .box3,
+    .main,
+    .header,
+    .container {
+        display: none;
+    }
+
+    .phoneAbout {
+        display: block;
+        background-color: rgb(206, 203, 203);
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    img[alt="Me"] {
+        right: 2rem;
+    }
+
+    .moi {
+        color: rgb(232, 161, 48);
+        ;
+    }
+
+    .travail {
+        color: blue;
+    }
+
+    .famile {
+        color: red;
+    }
+
+    .armee {
+        color: darkgreen;
+    }
+
+    .histoire {
+        color: purple;
+    }
+
+    #contactSection {
+        flex-direction: column;
+        background-color: black;
+    }
+
+    .container-img {
+        width: 100vw;
+    }
+
+    .container-img>img {
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .container-form {
+        width: 100vw;
+        margin-top: 1rem;
+    }
+
+    .container-form-title {
+        width: 100%;
+    }
+
+    .submit {
+        height: 6vh;
+    }
+
+    div>.privacy {
+        padding-left: 13rem;
+    }
+}
