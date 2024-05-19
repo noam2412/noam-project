@@ -112,13 +112,17 @@
         height: 6vh;
     }
 
+    .down {
+        display: none;
+    }
+
     div>.privacy {
         padding-left: 13rem;
     }
 }
 
 
-@media (min-width: 390px) {
+@media (max-width: 420px) {
     nav {
         padding-left: 1px;
     }
@@ -229,6 +233,10 @@
 
     .submit {
         height: 6vh;
+    }
+
+    .down {
+        display: none;
     }
 
     div>.privacy {

@@ -1,0 +1,92 @@
+@media (max-width: 380px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .project3 {
+        padding-top: 9rem;
+
+    }
+
+    .project3 h1 {
+        text-align: center;
+        font: normal normal normal 60px/86px Satisfy;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        text-shadow: 0px 0px 36px #00000087;
+        opacity: 1;
+    }
+
+    .here-form-control {
+        width: 60vw;
+        display: inline-block;
+    }
+
+    .project3 form label[for="name"] {
+        margin-bottom: -2rem;
+        padding-top: 3rem;
+    }
+
+    .project3 form label[for="mail"] {
+        margin-bottom: -2rem;
+        padding-top: 3rem;
+    }
+
+    .here-form-control input {
+        width: 60vw;
+    }
+
+    .project3 input[type="submit"] {
+        width: 60vw;
+        margin-left: 2rem;
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .project3 {
+        padding-top: 10rem;
+
+    }
+
+    .project3 h1 {
+        text-align: center;
+        font: normal normal normal 60px/86px Satisfy;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        text-shadow: 0px 0px 36px #00000087;
+        opacity: 1;
+    }
+
+    .here-form-control {
+        width: 60vw;
+        display: inline-block;
+    }
+
+    .project3 form label[for="name"] {
+        margin-bottom: -2rem;
+        padding-top: 3rem;
+    }
+
+    .project3 form label[for="mail"] {
+        margin-bottom: -2rem;
+        padding-top: 3rem;
+    }
+
+    .here-form-control input {
+        width: 60vw;
+    }
+
+    .project3 input[type="submit"] {
+        width: 60vw;
+        margin-left: 2rem;
+        color: #2823FD;
+    }
+
+
+}

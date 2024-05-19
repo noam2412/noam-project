@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#consultationSection {
+    display: flex;
+    background-color: white;
+}
+
+.consult-img {
+    width: 40vw;
+}
+
+.consult-img img {
+    width: 35vw;
+    height: 100vh;
+    object-fit: cover;
+    padding-right: 4rem;
+}
+
+.consult-form {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    padding: 5em;
+    color: #FDBD03;
+}
+
+.consult-form-title {
+    width: 100%;
+}
+
+.consult-form-title h1 {
+    color: #FDBD03;
+    font: normal normal 900 43px/63px Heebo;
+    width: 100vw;
+}
+
+.consult-form-title p {
+    font: normal normal normal 20px/29px Heebo;
+    color: #020253;
+    width: 30vw;
+}
+
+.border-top {
+    width: 50%;
+    height: 15px;
+    background-color: #FDBD03;
+}
+
+.box {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.consult-form {
+    width: 80%;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+input,
+.textarea {
+    text-align: right;
+    width: 90%;
+    border: none;
+    height: 40px;
+    background: #E5EEFF 0% 0% no-repeat padding-box;
+    border-bottom: 4px solid #FDBD03;
+}
+
+.textarea {
+    width: 190%;
+    height: 170px;
+}
+
+input[type="submit"] {
+    text-align: center;
+    margin-top: 16rem;
+    padding: 8px;
+    margin-right: -13rem;
+    width: 100%;
+    border: none;
+    background-color: #FDBD03;
+    font: normal normal bold 22px/30px Heebo;
+}
+
+.border-bottom {
+    width: 50%;
+    height: 15px;
+    background-color: #FDBD03;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form-submit input {
+    background-color: #FDBD03;
+    color: black;
+    height: 5vh;
+    width: 8vw;
+}
+
+.social-icons-whatsapp {
+    width: 50px;
+    height: 50px;
+    background: #FDBD03 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-right: 3rem;
+}
+
+.social-icons-whatsapp img {
+    width: 20px;
+    height: 27px;
+    margin-top: 0.7rem;
+    margin-right: 0.9rem;
+}
+
+.social-icons-facbook {
+    width: 50px;
+    height: 50px;
+    background: #FDBD03 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    border-radius: 50%;
+    margin-top: 36rem;
+    margin-right: 0.5rem;
+}
+
+.social-icons-facbook img {
+    width: 20px;
+    height: 27px;
+    margin-top: 0.7rem;
+    margin-right: 0.9rem;
+}
+
+.social-icons-instagram {
+    width: 50px;
+    height: 50px;
+    background: #FDBD03 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    border-radius: 50%;
+    margin-top: -3.05rem;
+    margin-right: -3.5rem;
+}
+
+.social-icons-instagram img {
+    width: 20px;
+    height: 27px;
+    margin-top: 0.7rem;
+    margin-right: 0.9rem;
+}
+
+.social-icons-mail {
+    width: 50px;
+    height: 50px;
+    background: #FDBD03 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    border-radius: 50%;
+    margin-top: -3.1rem;
+    margin-right: -7.5rem;
+}
+
+.social-icons-mail img {
+    width: 20px;
+    height: 27px;
+    margin-top: 0.7rem;
+    margin-right: 0.9rem;
+}
+
+.social-icons-call {
+    width: 50px;
+    height: 50px;
+    background: #FDBD03 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    border-radius: 50%;
+    margin-top: -3.1rem;
+    margin-right: -11.5rem;
+}
+
+.social-icons-call img {
+    width: 20px;
+    height: 27px;
+    margin-top: 0.7rem;
+    margin-right: 0.9rem;
+}

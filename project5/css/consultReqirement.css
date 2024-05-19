@@ -1,0 +1,285 @@
+    /* // Small devices (landscape phones, 576px and up) */
+    @media (max-width: 380px) {
+        #consultationSection {
+            flex-direction: column;
+            background-color: white;
+        }
+
+        .border-top {
+            width: 100%;
+            margin-right: -3rem;
+        }
+
+        .consult-img {
+            width: 100vw;
+            margin-right: -9rem;
+        }
+
+        .consult-img img {
+            width: 100vw;
+            height: 70vh;
+            object-fit: cover;
+            margin-right: -3rem;
+        }
+
+        .consult-form {
+            margin-top: 1rem;
+            margin-right: -7rem;
+        }
+
+        .consult-form-title {
+            text-align: center;
+            margin-left: -2rem;
+        }
+
+        .consult-form-title h1 {
+            width: 100vw;
+            height: 14vw;
+            margin-right: -4rem;
+
+        }
+
+        .consult-form-title p {
+            width: 80vw;
+            height: 14vw;
+            margin-right: -2em;
+            color: #020253;
+            margin-bottom: 3rem;
+        }
+
+        form {
+            width: 100vw;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .form {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin-right: -3rem;
+        }
+
+        input,
+        .textarea {
+            text-align: right;
+            width: 90%;
+            border: none;
+            height: 40px;
+            background: #E5EEFF 0% 0% no-repeat padding-box;
+            border-bottom: 4px solid #FDBD03;
+        }
+
+        .textarea {
+            width: 90%;
+            height: 170px;
+        }
+
+        input[type="submit"] {
+            text-align: center;
+            margin-top: 16rem;
+            padding: 8px;
+            margin-right: -13rem;
+            width: 100%;
+            border: none;
+            background-color: #FDBD03;
+            font: normal normal bold 22px/30px Heebo;
+        }
+
+        .form-control {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-control label {
+            margin-top: 3rem;
+            margin-right: -0.8rem;
+        }
+
+        .form-control input {
+            width: 60vw;
+        }
+
+        .form-submit input {
+            width: 70vw;
+            height: 5.5vh;
+            color: black;
+        }
+
+        .form-submit input[value=שליחה] {
+            width: 90vw;
+            margin-top: 2rem;
+            margin-right: -3rem;
+        }
+
+        .social-icons-whatsapp {
+            margin-top: -85rem;
+            margin-right: 19rem;
+        }
+
+        .social-icons-facbook {
+            margin-top: 85rem;
+            margin-right: -4rem;
+        }
+
+        .social-icons-instagram {
+            margin-right: -11rem;
+        }
+
+        .social-icons-mail {
+            margin-right: -18rem;
+        }
+
+        .social-icons-call {
+            margin-right: -25rem;
+        }
+
+        .border-bottom {
+            width: 150vw;
+            margin-bottom: -48rem;
+        }
+    }
+
+    @media (max-width: 420px) {
+
+        #consultationSection {
+            flex-direction: column;
+            background-color: white;
+        }
+
+        .border-top {
+            width: 100%;
+            margin-right: -3rem;
+        }
+
+        .consult-img {
+            width: 100vw;
+            margin-right: -9rem;
+        }
+
+        .consult-img img {
+            width: 100vw;
+            height: 70vh;
+            object-fit: cover;
+            margin-right: -3rem;
+        }
+
+        .consult-form {
+            margin-top: 1rem;
+            margin-right: -7rem;
+        }
+
+        .consult-form-title {
+            text-align: center;
+            margin-left: -2rem;
+        }
+
+        .consult-form-title h1 {
+            width: 100vw;
+            height: 14vw;
+            margin-right: -4rem;
+
+        }
+
+        .consult-form-title p {
+            width: 80vw;
+            height: 14vw;
+            margin-right: -2em;
+            color: #020253;
+            margin-bottom: 3rem;
+        }
+
+        form {
+            width: 100vw;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .form {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin-right: -3rem;
+        }
+
+        input,
+        .textarea {
+            text-align: right;
+            width: 90%;
+            border: none;
+            height: 40px;
+            background: #E5EEFF 0% 0% no-repeat padding-box;
+            border-bottom: 4px solid #FDBD03;
+        }
+
+        .textarea {
+            width: 90%;
+            height: 170px;
+        }
+
+        input[type="submit"] {
+            text-align: center;
+            margin-top: 16rem;
+            padding: 8px;
+            margin-right: -13rem;
+            width: 100%;
+            border: none;
+            background-color: #FDBD03;
+            font: normal normal bold 22px/30px Heebo;
+        }
+
+        .form-control {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-control label {
+            margin-top: 3rem;
+            margin-right: -0.8rem;
+        }
+
+        .form-control input {
+            width: 60vw;
+        }
+
+        .form-submit input {
+            width: 70vw;
+            height: 5.5vh;
+            color: black;
+        }
+
+        .form-submit input[value=שליחה] {
+            width: 90vw;
+            margin-top: 2rem;
+            margin-right: -3rem;
+        }
+
+        .social-icons-whatsapp {
+            margin-top: -85rem;
+            margin-right: 19rem;
+        }
+
+        .social-icons-facbook {
+            margin-top: 85rem;
+            margin-right: -4rem;
+        }
+
+        .social-icons-instagram {
+            margin-right: -11rem;
+        }
+
+        .social-icons-mail {
+            margin-right: -18rem;
+        }
+
+        .social-icons-call {
+            margin-right: -25rem;
+        }
+
+        .border-bottom {
+            width: 150vw;
+            margin-bottom: -48rem;
+        }
+    }

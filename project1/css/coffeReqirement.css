@@ -1,0 +1,96 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 380px) {
+    #coffeSection {
+        flex-direction: column;
+        background-color: white;
+    }
+
+    .coffe-img {
+        width: 100vw;
+    }
+
+    .coffe-img>img {
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .coffe-form {
+        width: 100%;
+        margin-top: -1rem;
+        margin-left: 1.6rem;
+    }
+
+    .coffe-form-title>h1 {
+        width: 100vw;
+        margin-top: -2rem;
+        font-size: 24pt;
+    }
+
+    .coffe-form-title>p {
+        width: 80vw;
+        font-size: 12pt;
+    }
+
+    .form-control label {
+        font-size: 10pt;
+    }
+
+    .form-control>input {
+        width: 70vw;
+        height: 5.5vh;
+    }
+
+    .form-submit>input {
+        width: 70vw;
+        height: 5.5vh;
+    }
+}
+
+@media (max-width: 420px) {
+    #coffeSection {
+        flex-direction: column;
+        background-color: white;
+    }
+
+    .coffe-img {
+        width: 100vw;
+    }
+
+    .coffe-img>img {
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .coffe-form {
+        width: 100%;
+        margin-top: -1rem;
+        margin-left: 1.6rem;
+    }
+
+    .coffe-form-title>h1 {
+        width: 100vw;
+        margin-top: -2rem;
+        font-size: 24pt;
+    }
+
+    .coffe-form-title>p {
+        width: 80vw;
+        font-size: 12pt;
+    }
+
+    .form-control label {
+        font-size: 10pt;
+    }
+
+    .form-control>input {
+        width: 70vw;
+        height: 5.5vh;
+    }
+
+    .form-submit>input {
+        width: 70vw;
+        height: 5.5vh;
+    }
+}
