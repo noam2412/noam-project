@@ -69,7 +69,7 @@
     }
 
     .headContent {
-        height: 55vh;
+        height: 65vh;
     }
 
     .headContent h1 {
@@ -102,6 +102,6 @@
     }
 
     div>.privacy {
-        padding-left: 15rem;
+        padding-left: 13rem;
     }
 }

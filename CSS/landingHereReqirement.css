@@ -40,6 +40,10 @@
     img[alt="BootstrapLogo"] {
         right: 30%;
     }
+
+    div>.privacy {
+        padding-left: 13rem;
+    }
 }
 
 @media (max-width: 420px) {
@@ -60,7 +64,7 @@
     }
 
     .headContent {
-        height: 55vh;
+        height: 65vh;
     }
 
     .headContent p {
@@ -82,5 +86,9 @@
 
     img[alt="BootstrapLogo"] {
         right: 30%;
+    }
+
+    div>.privacy {
+        padding-left: 13rem;
     }
 }

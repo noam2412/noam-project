@@ -23,6 +23,7 @@ nav ul li {
 nav ul li a {
     display: block;
     color: #fff;
+    background-color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -149,42 +150,44 @@ nav div {
 }
 
 .logo {
-    width: 50vw;
+    width: 100vw;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 40px 40px 40px;
+    grid-template-rows: 40px 40px 40px 40px;
     margin-top: 40px;
-
 
     /* Grid Areas */
 
-    grid-template-areas:
-        "header header header"
+    grid-template-areas: "header header header header";
     ;
 }
 
 img[alt="HtmlLogo"] {
     height: 50px;
     width: 50px;
-    /* margin-bottom: 11px; */
-    right: 63%;
+    right: 70%;
     position: absolute;
 }
 
 img[alt="CssLogo"] {
     height: 50px;
     width: 50px;
-    /* margin-bottom: 1px; */
-    right: 48%;
+    right: 55%;
     position: absolute;
 }
 
 img[alt="BootstrapLogo"] {
     height: 50px;
     width: 50px;
-    /* margin-bottom: 11px; */
-    right: 33%;
+    right: 40%;
+    position: absolute;
+}
+
+img[alt="JavaScriptLogo"] {
+    height: 50px;
+    width: 50px;
+    right: 25%;
     position: absolute;
 }
 
@@ -358,14 +361,10 @@ a[download="./rarfiles/Noam Project.zip"]:hover {
     height: 5vw;
     margin: 0 auto;
     background-color: #ffffff;
-    padding-left: 15rem;
+    padding-left: 22rem;
     padding-top: 1rem;
 }
 
-/* img,
-svg {
-    margin-left: 2rem;
-} */
 
 .copyright {
     width: 100vw;

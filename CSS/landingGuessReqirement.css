@@ -1,0 +1,111 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 380px) {
+    nav {
+        padding-left: 1px;
+    }
+
+    nav a {
+        display: none;
+    }
+
+    nav .myName {
+        display: none;
+    }
+
+
+    nav .hamburgerMenu {
+        display: block;
+    }
+
+    .headContent {
+        height: 65vh;
+    }
+
+    .headContent p {
+        width: 60vh;
+    }
+
+    .Button {
+        margin-top: -2rem;
+    }
+
+    .logo {
+        width: 100vw;
+        align-items: center;
+    }
+
+    img[alt="HtmlLogo"] {
+        right: 60%;
+    }
+
+    img[alt="CssLogo"] {
+        right: 45%;
+    }
+
+    img[alt="BootstrapLogo"] {
+        right: 30%;
+    }
+
+    div>.privacy {
+        padding-left: 13rem;
+    }
+}
+
+@media (max-width: 420px) {
+    nav {
+        padding-left: 1px;
+    }
+
+    nav a {
+        display: none;
+    }
+
+    nav .myName {
+        display: none;
+    }
+
+    nav .hamburgerMenu {
+        display: block;
+    }
+
+    .headContent {
+        height: 65vh;
+    }
+
+    .headContent h1 {
+        width: 97vw;
+    }
+
+    .headContent p {
+        width: 40vh;
+    }
+
+    .Button {
+        margin-top: -2rem;
+    }
+
+    .logo {
+        width: 100vw;
+        align-items: center;
+    }
+
+    img[alt="HtmlLogo"] {
+        right: 60%;
+    }
+
+    img[alt="CssLogo"] {
+        right: 45%;
+    }
+
+    img[alt="BootstrapLogo"] {
+        right: 30%;
+    }
+
+    img[alt="JavaScriptLogo"] {
+        right: 15%;
+    }
+
+    div>.privacy {
+        padding-left: 13rem;
+    }
+}
